@@ -1,10 +1,10 @@
 //your JS code here. If required.
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { 
   const tableBody = document.getElementById("output");
 
   // Add the loading row
-  const loadingRow = document.createElement("tr");
-  const loadingCell = document.createElement("td");
+  const loadingRow = document.createElement("td");
+  const loadingCell = document.createElement("tr"); 
   loadingCell.colSpan = 2;
   loadingCell.textContent = "Loading...";
   loadingRow.appendChild(loadingCell);
