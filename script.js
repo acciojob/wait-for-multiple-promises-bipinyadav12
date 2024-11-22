@@ -23,7 +23,7 @@
       const totalTime = ((performance.now() - startTime) / 1000).toFixed(3);
 
       // Get reference to the table body
-      const tableBody = document.getElementById('table-body');
+      const tableBody = document.getElementById('output');
 
       // Clear loading row
       tableBody.innerHTML = '';
